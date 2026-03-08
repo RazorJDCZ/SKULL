@@ -149,7 +149,7 @@ class _DialogAgregarGastoState extends State<DialogAgregarGasto> {
   }
 
   Future<List<Map<String, dynamic>>> analizarConOpenAI(String texto) async {
-    const openAiApiKey = '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'; 
+    const openAiApiKey = ''; 
     const endpoint = 'https://api.openai.com/v1/chat/completions';
 
     // Lista de categorías válidas
@@ -381,3 +381,4 @@ Texto: "$texto"
     );
   }
 }
+
